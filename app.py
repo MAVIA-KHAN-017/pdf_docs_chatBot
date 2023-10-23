@@ -16,9 +16,9 @@ from langchain.callbacks import get_openai_callback
 from sentence_transformers import SentenceTransformer
 import os 
 
-os.getenv('OPENAI_API_KEY')
-openapi_key = st.secrets[OPENAI_API_KEY]
-
+# os.getenv('OPENAI_API_KEY')
+# openapi_key = st.secrets["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"]
+openapi_key=st.write(st.secrets["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"])
 # "with" notation
 def main():
     load_dotenv()
