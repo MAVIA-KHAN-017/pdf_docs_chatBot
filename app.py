@@ -18,7 +18,7 @@ import os
 
 st.write("DB username:", st.secrets["db_username"])
 st.write("DB password:", st.secrets["db_password"])
-
+st.write("openai:", st.secrets["openai"]["OPENAI_API_KEY"])
 st.write(
     "Has environment variables been set:",
     os.environ["db_username"] == st.secrets["db_username"],
