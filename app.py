@@ -17,8 +17,8 @@ from sentence_transformers import SentenceTransformer
 import os 
 
 # os.getenv('OPENAI_API_KEY')
-# openapi_key = st.secrets["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"]
-openapi_key=st.write(st.secrets["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"])
+openapi_key = st.secrets["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"]
+# openapi_key=st.write(st.secrets["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"])
 # os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 
 # "with" notation
