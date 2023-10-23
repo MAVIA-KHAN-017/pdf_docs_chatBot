@@ -15,7 +15,7 @@ from streamlit_chat import message
 from langchain.callbacks import get_openai_callback
 from sentence_transformers import SentenceTransformer
 
-openapi_key = st.secrets["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"]
+openapi_key = st.secrets[""]
 
 # "with" notation
 def main():
