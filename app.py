@@ -16,8 +16,8 @@ from langchain.callbacks import get_openai_callback
 from sentence_transformers import SentenceTransformer
 import os 
 
-st.write("DB username:", st.secrets["db_username"])
-st.write("DB password:", st.secrets["db_password"])
+# st.write("DB username:", st.secrets["db_username"])
+# st.write("DB password:", st.secrets["db_password"])
 st.write("openai:", st.secrets["openai"]["OPENAI_API_KEY"])
 # st.write(
 #     "Has environment variables been set:",
