@@ -19,10 +19,10 @@ import os
 st.write("DB username:", st.secrets["db_username"])
 st.write("DB password:", st.secrets["db_password"])
 st.write("openai:", st.secrets["openai"]["OPENAI_API_KEY"])
-st.write(
-    "Has environment variables been set:",
-    os.environ["db_username"] == st.secrets["db_username"],
-)
+# st.write(
+#     "Has environment variables been set:",
+#     os.environ["db_username"] == st.secrets["db_username"],
+# )
 
 # os.getenv('OPENAI_API_KEY')
 # openapi_key = st.secrets["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"]
