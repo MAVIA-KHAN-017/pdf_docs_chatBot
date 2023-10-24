@@ -15,10 +15,11 @@ from streamlit_chat import message
 from langchain.callbacks import get_openai_callback
 from sentence_transformers import SentenceTransformer
 import os 
+import openai
 
-# st.write("DB username:", st.secrets["db_username"])
-# st.write("DB password:", st.secrets["db_password"])
-st.write("openai:", st.secrets["openai"]["OPENAI_API_KEY"])
+
+openai.openapi_key=st.secrets["openapi_key"]
+# st.write("openai:", st.secrets["openai"]["OPENAI_API_KEY"])
 # st.write(
 #     "Has environment variables been set:",
 #     os.environ["db_username"] == st.secrets["db_username"],
